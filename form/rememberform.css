@@ -1,0 +1,75 @@
+html{
+
+font-size: 20px;
+
+}
+
+body{
+
+margin:0%;
+font-family: 'Times New Roman', Times, serif;
+background-color:rgb(214, 214, 214);
+
+}
+
+
+#fieldsetpersonaldata{
+
+margin-top:1rem;
+margin-bottom: 1.5rem;
+border: solid 0.1rem black;
+text-align:center;
+
+}
+
+#fieldsetprofessionaldata{
+
+margin-bottom: 1.5rem;
+border: solid 0.1rem black;
+text-align:center;
+
+}
+
+.legend{
+
+padding: 0.5rem;
+background-color:black;
+color: #ffffff;
+font-weight:bold;
+font-size:0.9rem;
+
+}
+
+label{
+
+display:block;
+margin-bottom:0.25rem;
+font-size: 0.8rem;
+
+}
+
+#submit{
+
+background-color:#ddd;
+
+}    
+
+#submit:hover{
+
+background-color: #ccc;
+
+}
+
+.formelements{
+
+background-color:#eee;
+width:10rem; 
+height:0.9rem;
+
+}
+
+#inputfile{
+
+width:14rem;
+
+}
