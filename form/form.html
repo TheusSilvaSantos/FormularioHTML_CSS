@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulário Teste</title>
+</head>
+
+<body>
+
+<div id="divform">
+ 
+  <form action="remember.login.html" method="POST" enctype="multipart/form-data">
+  
+  <fieldset id="fieldsetpersonaldata">
+
+    <legend class="legend"> Dados Pessoais </legend>
+
+    <br>
+
+    <label>
+
+    Nome <br>
+    <input class="formelements" type="text" name="firstname" required minlength="2" maxlength="20" autofocus placeholder="Primeiro Nome" >
+
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+
+    Sobrenome <br>
+    <input class="formelements" type="text" name="lastname" minlength="2" maxlength="50" placeholder="Sobrenome">
+
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+
+    Email <br>
+    <input class="formelements" type="email" name="email" required placeholder="Endereço de Email">
+
+    </label>
+
+    <br>
+    <br>
+
+    <label>
+    
+    Data de Nascimento <br>
+    <input class="formelements" type="date" name="birthdate" required max="2022-08-02">
+
+    </label>
+
+    <br>
+    <br>
+
+  </fieldset>
+
+  <fieldset id="fieldsetprofessionaldata">
+
+  <legend class="legend">Dados Profissionais</legend>
+
+  <br>
+
+  <label>
+
+  Nome da Empresa <br>
+  <input class="formelements"  type="text" name="companyname" required maxlength="50" placeholder="Nome da Empresa">
+
+  </label>
+
+  <br>
+  <br>
+
+
+  <label>
+
+    Cargo na Empresa <br>
+    <input class="formelements" type="text" name="companyjobtitle" required minlength="2" maxlength="50" placeholder="Cargo na Empresa">
+
+  </label>
+
+  <br>
+  <br>
+
+  <label>
+
+    Quanto Tempo na Empresa <br>
+    <select class="formelements" name="timeinthecompany" required>
+
+        
+      <option value="0"></option>
+      <option value="1">Entre 3 meses a 1 ano</option>
+      <option value="2">Entre 1 ano a 3 anos</option>
+      <option value="3">Mais de 3 anos</option>
+
+    </select>
+
+  </label>
+
+  <br>
+  <br>
+
+  <label>
+
+  Carteira de Trabalho <br>
+  <input  id="inputfile" class="formelements" type="file" name="workcard" required>
+
+  </label>
+
+  <br>
+  <br>
+
+  <input id="submit" type="submit" value="Enviar Cadastro"> 
+
+
+  </fieldset>
+  
+  
+  
+
+  
+  </form>
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html> 
